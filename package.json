@@ -1,0 +1,19 @@
+{
+  "name": "cypresssample",
+  "version": "1.0.0",
+  "description": "This is for Cypress practise session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run "
+  },
+  "author": "Manoj Karthick",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.1"
+  },
+  "dependencies": {
+    "wait-on": "^7.0.1"
+  }
+}
